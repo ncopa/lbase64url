@@ -1,6 +1,6 @@
 -- test base64 library
 
-require"base64"
+base64=require"base64url"
 
 print(base64.version)
 print""

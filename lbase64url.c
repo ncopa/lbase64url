@@ -109,7 +109,7 @@ static const luaL_Reg R[] =
 	{ NULL,		NULL	}
 };
 
-LUALIB_API int luaopen_base64(lua_State *L)
+LUALIB_API int luaopen_base64url(lua_State *L)
 {
  luaL_register(L,MYNAME,R);
  lua_pushliteral(L,"version");			/** version */
