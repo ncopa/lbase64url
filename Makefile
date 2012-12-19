@@ -20,7 +20,7 @@ INCS= -I$(LUAINC)
 MAKESO= $(CC) -shared
 #MAKESO= $(CC) -bundle -undefined dynamic_lookup
 
-MYNAME= base64
+MYNAME= base64url
 MYLIB= l$(MYNAME)
 T= $(MYNAME).so
 OBJS= $(MYLIB).o

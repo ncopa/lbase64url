@@ -11,13 +11,13 @@
 #include "lua.h"
 #include "lauxlib.h"
 
-#define MYNAME		"base64"
+#define MYNAME		"base64url"
 #define MYVERSION	MYNAME " library for " LUA_VERSION " / Mar 2010"
 
 #define uint unsigned int
 
 static const char code[]=
-"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
 
 static void encode(luaL_Buffer *b, uint c1, uint c2, uint c3, int n)
 {
