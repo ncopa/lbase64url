@@ -12,7 +12,7 @@
 #include "lauxlib.h"
 
 #define MYNAME		"base64url"
-#define MYVERSION	MYNAME " library for " LUA_VERSION " / Mar 2010"
+#define MYVERSION	MYNAME " library for " LUA_VERSION " / Dec 2012"
 
 #define uint unsigned int
 
